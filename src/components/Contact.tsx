@@ -74,7 +74,7 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-800">Email</h4>
-                  <p className="text-gray-600">yassine.elkortih@gmail.com</p>
+                  <p className="text-gray-600">elkortihyassine@gmail.com</p>
                 </div>
               </div>
               
@@ -84,7 +84,7 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-800">Phone</h4>
-                  <p className="text-gray-600">+212 612 345 678</p>
+                  <p className="text-gray-600">+212 623155756</p>
                 </div>
               </div>
               
@@ -111,7 +111,7 @@ const Contact = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/in/yassine-el-kortih" 
+                  href="www.linkedin.com/in/elkortih-yassine-89818b344" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-gray-200 hover:bg-blue-600 hover:text-white text-gray-700 p-3 rounded-full transition-colors"
@@ -119,7 +119,7 @@ const Contact = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
                 </a>
                 <a 
-                  href="https://wa.me/123456789" 
+                  href="https://wa.me/+212623155756" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-gray-200 hover:bg-blue-600 hover:text-white text-gray-700 p-3 rounded-full transition-colors"
@@ -140,7 +140,7 @@ const Contact = () => {
               </div>
             ) : null}
             
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} action='https://formspree.io/f/mvgaoolw' method='POST'>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>

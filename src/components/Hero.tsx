@@ -43,7 +43,7 @@ const Hero = () => {
                   <Github size={28} />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/yassine-el-kortih" 
+                  href="www.linkedin.com/in/elkortih-yassine-89818b344" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-gray-700 hover:text-blue-600 transition-colors"
@@ -52,7 +52,7 @@ const Hero = () => {
                   <Linkedin size={28} />
                 </a>
                 <a 
-                  href="https://wa.me/123456789" 
+                  href="https://wa.me/+212623155756" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-gray-700 hover:text-blue-600 transition-colors"
