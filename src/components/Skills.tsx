@@ -1,18 +1,30 @@
 import React from 'react';
 import SkillCard from './SkillCard';
+import {
+  Figma,
+  Code,
+  Palette,
+  ScrollText,
+  Github,
+  Shell,
+  GitBranch,
+  Database,
+  FileCode,
+  Atom
+} from 'lucide-react';
 
 const Skills = () => {
   const skills = [
-    { name: 'Figma', icon: '🎨', color: 'bg-purple-100', textColor: 'text-purple-600' },
-    { name: 'HTML', icon: '🌐', color: 'bg-orange-100', textColor: 'text-orange-600' },
-    { name: 'CSS', icon: '🎨', color: 'bg-blue-100', textColor: 'text-blue-600' },
-    { name: 'JavaScript', icon: '📜', color: 'bg-yellow-100', textColor: 'text-yellow-600' },
-    { name: 'GitHub', icon: '📊', color: 'bg-gray-100', textColor: 'text-gray-600' },
-    { name: 'Python', icon: '🐍', color: 'bg-green-100', textColor: 'text-green-600' },
-    { name: 'Git', icon: '📝', color: 'bg-red-100', textColor: 'text-red-600' },
-    { name: 'SQL', icon: '🗄️', color: 'bg-blue-100', textColor: 'text-blue-600' },
-    { name: 'PHP', icon: '🐘', color: 'bg-indigo-100', textColor: 'text-indigo-600' },
-    { name: 'React', icon: '⚛️', color: 'bg-cyan-100', textColor: 'text-cyan-600' },
+    { name: 'Figma', icon: <Figma />, color: 'bg-purple-100', textColor: 'text-purple-600' },
+    { name: 'HTML', icon: <Code />, color: 'bg-orange-100', textColor: 'text-orange-600' },
+    { name: 'CSS', icon: <Palette />, color: 'bg-blue-100', textColor: 'text-blue-600' },
+    { name: 'JavaScript', icon: <ScrollText />, color: 'bg-yellow-100', textColor: 'text-yellow-600' },
+    { name: 'GitHub', icon: <Github />, color: 'bg-gray-100', textColor: 'text-gray-600' },
+    { name: 'Python', icon: <Shell />, color: 'bg-green-100', textColor: 'text-green-600' },
+    { name: 'Git', icon: <GitBranch />, color: 'bg-red-100', textColor: 'text-red-600' },
+    { name: 'SQL', icon: <Database />, color: 'bg-blue-100', textColor: 'text-blue-600' },
+    { name: 'PHP', icon: <FileCode />, color: 'bg-indigo-100', textColor: 'text-indigo-600' },
+    { name: 'React', icon: <Atom />, color: 'bg-cyan-100', textColor: 'text-cyan-600' },
   ];
 
   return (
